@@ -1,4 +1,4 @@
-# Air Quality Prediction — Project Summary
+# Air Quality Prediction
 # Dataset and Problem
 
 This project uses the UCI Air Quality dataset to predict carbon monoxide (CO) concentration. The dataset contains air-quality and environmental information such as temperature and humidity.
