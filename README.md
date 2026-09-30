@@ -15,7 +15,7 @@ The value `-200` was treated as missing data and replaced with NaN. Missing valu
 
 The `Date` and `Time` columns were combined into a datetime feature. Features such as year, month, day, hour, day of week, weekend, and rush hour were created to help the model understand time patterns.
 
-# Model Development
+Model Development
 
 Three models were tested:
 
@@ -25,14 +25,14 @@ Three models were tested:
 
 The models used preprocessing pipelines with imputation and scaling where needed.
 
-# Testing and Evaluation
+Testing and Evaluation
 
 The data was split chronologically into 70% training, 15% validation, and 15% testing. The models were evaluated using MAE, RMSE, and R².
 
-# Model Saving and Prototype
+Model Saving and Prototype
 
 The final Random Forest model was saved as air_quality_model.pkl, and the feature list was saved as air_quality_features.pkl. A Gradio GUI was created so users can enter information and get a predicted CO concentration.
 
-# Conclusion
+Conclusion
 
 This project demonstrates a complete machine-learning process, from data cleaning and analysis to model training, evaluation, saving, and deployment through a simple GUI.
