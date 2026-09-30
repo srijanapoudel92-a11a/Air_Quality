@@ -1,17 +1,17 @@
 # Air Quality Prediction
-# Dataset and Problem
+Dataset and Problem
 
 This project uses the UCI Air Quality dataset to predict carbon monoxide (CO) concentration. The dataset contains air-quality and environmental information such as temperature and humidity.
 
-# Data Loading and Inspection
+Data Loading and Inspection
 
 The dataset was loaded using ucimlrepo and Pandas. The data was checked for columns, data types, missing values, and basic statistics. Different charts were used to understand the data.
 
-# Data Cleaning
+ Data Cleaning
 
 The value `-200` was treated as missing data and replaced with NaN. Missing values were filled using median values. Duplicate records were also checked and removed. Outliers were examined but not automatically removed because they may represent real pollution levels.
 
-# Feature Engineering
+ Feature Engineering
 
 The `Date` and `Time` columns were combined into a datetime feature. Features such as year, month, day, hour, day of week, weekend, and rush hour were created to help the model understand time patterns.
 
